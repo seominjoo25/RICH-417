@@ -5,83 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .main1 {
-            height: 90px;
-            background-color: #ccc;
-            border-bottom: 1px solid white;
-            display: flex;
-            align-items: center;
-            padding: 20px;
-            background: url(./RICH-image/RICH-Main-bg.jpg);
-        }
-
-        .box-logo {
-            display: inline-block;
-            background-size: 100% auto;
-        }
-
-        .box-logo img {
-            width: 90px;
-            height: 40px;
-            margin-right: 30px;
-        }
-
-        .box-title {
-            width: 60%;
-        }
-
-        a {
-            font-family: "Noto Sans KR", sans-serif;
-            margin: 25px;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        .box3 {
-            width: 20%;
-        }
-
-        .main2 {
-            height: 900px;
-            background-color: #ccc;
-            border-bottom: 1px solid white;
-            background: url(./RICH-image/RICH-Main-bg.jpg) no-repeat;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./RICH-CSS.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="main1">
-            <div class="box-logo"><img src="./RICH-image/RICH-Top_logo-01.png" alt="top-logo"></div>
-            <div class="box-title">
-                <a>매물</a>
-                <a>시세</a>
-                <a>뉴스</a>
-                <a>분양</a>
-                <a>매물의뢰</a>
-                <a>직거래</a>
-            </div>
-            <div class="box-end">
-                <div class="main-logo">
-                    <i class="fa-solid fa-street-view"></i>
-                </div>
-            </div>
+
+    <div class="main1">
+        <div class="box-logo"><img src="../RICH-image/RICH-Top_logo-01.png" alt="top-logo"></div>
+        <div class="box-title">
+            <a>매물</a>
+            <a>시세</a>
+            <a>뉴스</a>
+            <a>분양</a>
+            <a>매물의뢰</a>
+            <a>직거래</a>
         </div>
-        <div class="main2">
+        <div class="box-end">
+            <div class="main-logo2">
+                <i class="fa-solid fa-user"></i>
+                <p style="font-weight: bold; color: white;">로그인</p>
+            </div>
+            <div class="select_wrap">
+                <div class="box_wrap">
+                    <a>
+                        빅데이터 솔루션
+                        <span><i class="fa-solid fa-chevron-down"></i></span>
+                    </a>
+                </div>
+                <ul class="gnb">
+                    <li class="lnb">
+                        <a class="lnb-a">
+                            <p class="lnb-p">REPS</p>
+                            <span class="lnb-sn">통계분석 솔루션</span>
+                        </a>
+                    </li>
+                    <li class="lnb">
+                        <a class="lnb-a">
+                            <p class="lnb-p">RCS</p>
+                            <span class="lnb-sn">상업통계정보 솔루션</span>
+                        </a>
+                    </li>
+                    <li class="lnb">
+                        <a class="lnb-a">
+                            <p class="lnb-p">네이버XR</p>
+                            <span class="lnb-sn">성공분양솔루션</span>
+                        </a>
+                    </li>
+                    <li class="lnb">
+                        <a class="lnb-a">
+                            <p class="lnb-p">K-Atlas</p>
+                            <span class="lnb-sn">부동산금융 솔루션</span>
+                        </a>
+                    </li>
+                    <li class="lnb">
+                        <a class="lnb-a">
+                            <p class="lnb-p">컨설팅보고서</p>
+                            <span class="lnb-sn">부동산 전문가의 손길</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box_red">
+                <div class="bg_red">중계회원존</div>
+            </div>
         </div>
     </div>
+    <div class="main2"></div>
+
 </body>
 
 </html>
