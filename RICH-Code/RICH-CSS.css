@@ -47,7 +47,7 @@
         }
 
         .box-end {
-            width: 420px;
+            width: 385px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -92,7 +92,7 @@
         }
 
         .select_wrap .gnb {
-            display: ;
+            display: none;
             width: 141px;
             position: absolute;
             top: 37px;
@@ -123,9 +123,83 @@
             background-color: rgba(255, 0, 0, 0.945);
             margin-left: 5px;
             padding: 5px;
-            border-radius: 2px;
+            border-radius: 5px;
             text-align: center;
             font-weight: bold;
             font-size: 15px;
             color: #f5e8e8;
         }
+
+        .main2_box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            height: 60%;
+        }
+
+        .main2_p {
+            color: white;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main2_sn {
+            color: white;
+            font-size: 45px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main2_ser {
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main2_serch {
+            width: 45%;
+            height: 50px;
+            font-size: 20px;
+            padding: 0 14px;
+            background-color: rgba(255,255,255,.9);
+            border: 0;
+        }
+
+        .main2_serch::placeholder {
+            opacity: 0.7;
+        }
+
+        .main2_serch_i {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .dlb {
+            display: flex;
+            align-items: flex-end;
+            margin-top: 20px;
+            color: white;
+        }
+
+        .dlb_dt {
+            margin-right: 10px;
+            font-size: 15px;
+        }
+
+        .dlb_dda {
+            padding: 5px;
+            background-color: #0000003d;
+            margin: 6px;
+            border-radius: 6%;
+            font-size: 13px;
+        }
+        
