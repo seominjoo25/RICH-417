@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 800px;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Login_mbox {
+    width: 30vw;
+    height: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.Login_h {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.inb_login,
+.inb_pw {
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    opacity: 0.7;
+}
+
+.inb_bgred {
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+    padding: 0;
+    background-color: red;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.login_a {
+    font-size: 13px;
+    margin: 3px;
+    font-weight: bold;
+    font-family: "Noto Sans KR", sans-serif;
+    ;
+}
+
+.login_p {
+    width: 70%;
+    border: 1px solid #bbb;
+    text-align: center;
+    margin: 15px 0px 10px;
+}
+
+.login_p1 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #bbb;
+}
+
+.imgbox {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kakao {
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #f9d700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.naver {
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #83d76f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.facebook {
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #6b94eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p {
+    margin: 10px;
+}
+
+.naver_p {
+    margin: 17px;
+}
