@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 850px;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../RICH-image/RICH-Main-bg.jpg) no-repeat;
+    background-size: 300vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 30px;
+    text-align: center;
+}
+
+h5 {
+    margin-left: 45px;
+}
+
+.login_p {
+    width: 80%;
+    border: 1px solid #bbb;
+    text-align: center;
+    margin: 10px 43px 10px;
+}
+
+.Login_pw-box {
+    width: 35vw;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.Login_h {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.login_get,
+.login,
+.email {
+    width: 80%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    opacity: 0.7;
+}
+
+ul {
+    padding-left: 60px;
+    margin-top: 0;
+    font-size: 13px;
+    color: #aaa;
+}
+
+ul li {
+    margin-top: 6px;
+    padding-right: 50px;
+}
+
+.inb_bgred,
+.inb_bgred2 {
+    width: 80%;
+    height: 50px;
+    margin: 10px;
+    padding: 0;
+    background-color: red;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}

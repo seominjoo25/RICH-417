@@ -54,7 +54,7 @@ document.querySelector('.menu_F').addEventListener('mouseout', () => {
     document.querySelector('.ul_F').style.display = '';
 });
 
-document.querySelector('.dlb1_bgwhite').addEventListener('click', function() {
+document.querySelector('.dlb1_bgwhite').addEventListener('click', function () {
     var newserch = document.querySelector('.newserch');
     if (newserch.style.display == 'none') {
         newserch.style.display = 'block';

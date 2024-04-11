@@ -10,18 +10,38 @@
 
 <body>
     <div class="Login_mbox">
-        <h1 class="Login_h">로그인</h1>
-        <input type="email" placeholder="아이디" class="inb_login">
-        <input type="password" placeholder="비밀번호" class="inb_pw">
-        <button type="submit" class="inb_bgred">로그인</button>
-        <a class="login_a">아이디/비밀번호 찾기</a>
-        <a class="login_a">회원가입</a>
+        <h2>로그인</h2>
+        <form>
+            <input type="email" placeholder="아이디" class="inb_login" required>
+            <input type="password" placeholder="비밀번호" class="inb_pw" required>
+            <button type="submit" class="inb_bgred">로그인</button>
+        </form>
+        <a href="./RICH-login_pw.html" target="_self" class="login_a">아이디/비밀번호 찾기</a>
+        <a href="https://www.r114.com/?_c=mypage&_m=joinmain" class="login_a" target="_blank">회원가입</a>
         <p class="login_p"></p>
         <p class="login_p1">sns 계정으로 간편하게 로그인 하실 수 있습니다.</p>
         <div class="imgbox">
-            <div class="kakao"><img src="../RICH-image/kakao.png"><p class="p">카카오톡 로그인</p></div>
-            <div class="naver"><img src="../RICH-image/naver.png"><p class="naver_p">네이버 로그인</p></div>
-            <div class="facebook"><img src="../RICH-image/facebook.png"><p class="p">페이스북 로그인</p></div>
+            <div class="kakao">
+                <img src="../RICH-image/kakao.png">
+                <a href="https://accounts.kakao.com/login/?login_type=normal&continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fproxy%3DeasyXDM_Kakao_zadksqpimd_provider%26ka%3Dsdk%252F1.43.3%2520os%252Fjavascript%2520sdk_type%252Fjavascript%2520lang%252Fko%2520device%252FWin32%2520origin%252Fhttps%25253A%25252F%25252Fwww.r114.com%26origin%3Dhttps%253A%252F%252Fwww.r114.com%26response_type%3Dcode%26redirect_uri%3Dkakaojs%26state%3D2zwl7uhjiise9q84mvxxmw%26through_account%3Dtrue%26client_id%3D23c84af6c9dbeecc7814689bde8f6cd1&talk_login=hidden#login"
+                    target="_blank">
+                    <p class="p">카카오톡 로그인</p>
+                </a>
+            </div>
+            <div class="naver">
+                <img src="../RICH-image/naver.png">
+                <a href="https://nid.naver.com/nidlogin.login?oauth_token=AkvQhEu1nj8oUIIXKm&consumer_key=sTiomi2rv96sJ5BwUrb8&logintp=oauth2&nurl=https%3A%2F%2Fnid.naver.com%2Foauth2.0%2Fauthorize%3Fresponse_type%3Dtoken%26state%3D%26client_id%3DsTiomi2rv96sJ5BwUrb8%26redirect_uri%3Dhttps%253A%252F%252Fwww.r114.com%252FW1%252FViews%252FComm%252FnaverCallback.asp%26locale%3Dko_KR%26inapp_view%3D%26oauth_os%3D&locale=ko_KR&inapp_view=&svctype="
+                    target="_blank">
+                    <p class="naver_p">네이버 로그인</p>
+                </a>
+            </div>
+            <div class="facebook">
+                <img src="../RICH-image/facebook.png">
+                <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=1381871691878925&kid_directed_site=0&app_id=1381871691878925&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.8%2Fdialog%2Foauth%3Fapp_id%3D1381871691878925%26cbt%3D1712796442663%26channel_url%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Dfcf140cb98451242d%2526domain%253Dwww.r114.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.r114.com%25252Ff55131866242b03b6%2526relation%253Dopener%26client_id%3D1381871691878925%26display%3Dpopup%26domain%3Dwww.r114.com%26e2e%3D%257B%257D%26fallback_redirect_uri%3Dhttps%253A%252F%252Fwww.r114.com%252F%26locale%3Dko_KR%26logger_id%3Df955e2418262dc6c6%26origin%3D1%26redirect_uri%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Dfb4061cfa322dd690%2526domain%253Dwww.r114.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.r114.com%25252Ff55131866242b03b6%2526relation%253Dopener%2526frame%253Df325681b3f06c5c26%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26scope%3Dpublic_profile%252Cemail%26sdk%3Djoey%26version%3Dv2.8%26ret%3Dlogin%26fbapp_pres%3D0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfb4061cfa322dd690%26domain%3Dwww.r114.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.r114.com%252Ff55131866242b03b6%26relation%3Dopener%26frame%3Df325681b3f06c5c26%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied&display=popup&locale=ko_KR&pl_dbl=0"
+                    target="_blank">
+                    <p class="p">페이스북 로그인</p>
+                </a>
+            </div>
         </div>
     </div>
 </body>
