@@ -6,52 +6,36 @@ document.querySelector('.fa-chevron-down').addEventListener('click', () => {
     bw_click();
 });
 
-document.querySelector('.menu_A').addEventListener('mouseover', () => {
-    document.querySelector('.ul_A').style.display = 'block';
-});
+function toggleUl(menuClass, ulClass) {
+    const menu = document.querySelector(menuClass);
+    const ul = document.querySelector(ulClass);
 
-document.querySelector('.menu_A').addEventListener('mouseout', () => {
-    document.querySelector('.ul_A').style.display = '';
-});
+    menu.addEventListener('mouseover', () => {
+        const allUl = document.querySelectorAll('.ul_A, .ul_B, .ul_C, .ul_D, .ul_E, .ul_F');
+        allUl.forEach((e) => {
+            e.style.display = 'none';
+        });
 
-document.querySelector('.menu_B').addEventListener('mouseover', () => {
-    document.querySelector('.ul_B').style.display = 'block';
-});
+        ul.style.display = 'block';
+    });
+}
 
-document.querySelector('.menu_B').addEventListener('mouseout', () => {
-    document.querySelector('.ul_B').style.display = '';
-});
+toggleUl('.menu_A', '.ul_A');
+toggleUl('.menu_B', '.ul_B');
+toggleUl('.menu_C', '.ul_C');
+toggleUl('.menu_D', '.ul_D');
+toggleUl('.menu_E', '.ul_E');
+toggleUl('.menu_F', '.ul_F');
 
-document.querySelector('.menu_C').addEventListener('mouseover', () => {
-    document.querySelector('.ul_C').style.display = 'block';
-});
+document.querySelectorAll('.ulb_all').forEach(li => {
+    const ul = li.parentElement;
+    ul.addEventListener('mouseover', () => {
+        ul.style.display = 'none';
+    });
 
-document.querySelector('.menu_C').addEventListener('mouseout', () => {
-    document.querySelector('.ul_C').style.display = '';
-});
-
-document.querySelector('.menu_D').addEventListener('mouseover', () => {
-    document.querySelector('.ul_D').style.display = 'block';
-});
-
-document.querySelector('.menu_D').addEventListener('mouseout', () => {
-    document.querySelector('.ul_D').style.display = '';
-});
-
-document.querySelector('.menu_E').addEventListener('mouseover', () => {
-    document.querySelector('.ul_E').style.display = 'block';
-});
-
-document.querySelector('.menu_E').addEventListener('mouseout', () => {
-    document.querySelector('.ul_E').style.display = '';
-});
-
-document.querySelector('.menu_F').addEventListener('mouseover', () => {
-    document.querySelector('.ul_F').style.display = 'block';
-});
-
-document.querySelector('.menu_F').addEventListener('mouseout', () => {
-    document.querySelector('.ul_F').style.display = '';
+    ul.addEventListener('mouseout', () => {
+        ul.style.display = '';
+    });
 });
 
 document.querySelector('.dlb1_bgwhite').addEventListener('click', function () {
