@@ -11,6 +11,10 @@
             list-style: none;
         }
 
+        body {
+            width: 1240px;
+        }
+
         .main1 {
             height: 80px;
             border-bottom: 1px solid white;
@@ -65,7 +69,6 @@
 
         .box-title {
             width: 70%;
-            margin-left: 10px;
             display: flex;
             align-items: center;
         }
