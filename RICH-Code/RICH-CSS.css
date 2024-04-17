@@ -24,6 +24,8 @@
             padding: 20px;
         }
 
+        /* main1 시작 */        
+
         .main1:hover {
             background-image: none;
         }
@@ -369,4 +371,32 @@
 
         .main3 img {
             width: 100%;
+        }
+
+
+        @media screen and (max-width : 700px) {
+            body {width: 100%;}
+            /*box-logo 부분*/
+            .box-logo a {display: flex; align-items: center;}
+            .box-logo img {max-width: 70px; margin-right: 10px;}
+            /*box-title 부분*/
+            .box-title a{margin: 3px; padding: 0; font-size: 15px;}
+            /*box-end 부분*/
+            .main-logo2 {width:60px ; margin:10; padding: 0;}
+            .main-logo2 a {font-size: 13px;}
+            .box_wrap {padding: auto; max-width: 120px;}
+            .box_wrap a { display: flex; justify-content: center; align-items: center;}
+            .box_wrap span,.box_wrap span i {font-size: 13px;}
+            .bg_red {height: 19px; font-size: 14px;}
+
+            /*main2 부분*/
+            /*dlb1 부분*/
+            .dlb1_p {font-size: 35px;}
+            .dlb1_sn {font-size: 40px;}
+            /*dlb2 부분*/
+            .dlb2_box {max-width: 80px; max-height: 80px; font-size: 14px;}
+            .dlb2 img {max-width: 40px; max-height: 40px;}
+
+            /*main3 부분*/
+            .main3 img {max-width: 650px;}
         }

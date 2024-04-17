@@ -18,7 +18,7 @@ body {
 }
 
 .Login_mbox {
-    width: 35vw;
+    width: 400px;
     height: 680px;
     display: flex;
     justify-content: center;
@@ -136,4 +136,10 @@ a[target="_self"] {
 .naver_p {
     margin: 17px;
     color: black;
+}
+
+
+@media screen and (max-width : 700px) {
+    body {width: 100%;}
+    .Login_mbox{max-height: 680px;}
 }
