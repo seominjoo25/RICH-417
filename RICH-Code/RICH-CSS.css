@@ -15,17 +15,7 @@
             width: 1240px;
         }
 
-        .main1 {
-            height: 80px;
-            border-bottom: 1px solid white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-        }
-
-        /* main1 시작 */        
-
+        /* 상단박스 hover 적용 */  
         .main1:hover {
             background-image: none;
         }
@@ -50,10 +40,22 @@
             color: #333;
         }
 
+        /* 전체 배경 이미지 적용 */  
         .main1,.dlb1 {
             background: url(../RICH-image/RICH-Main-bg.jpg) no-repeat;
         }
 
+        /* main1 시작 */  
+        .main1 {
+            height: 80px;
+            border-bottom: 1px solid white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /*box-logo 시작*/
         .box-logo {
             margin-right: 5px;
         }
@@ -69,12 +71,14 @@
             margin-right: 20px;
         }
 
+        /*box-title 시작*/
         .box-title {
             width: 70%;
             display: flex;
             align-items: center;
         }
 
+        /*box-title 하단 내용 추가*/
         .ulA,.ulB,.ulC,.ulD,.ulE,.ulF {
             position: absolute;
             top: 80px;
@@ -131,6 +135,7 @@
             font-weight: bold;
         }
 
+        /*box-end 시작*/
         .box-end {
             width: 400px;
             display: flex;
@@ -178,6 +183,7 @@
             border-bottom: 1px solid white;
         }
 
+        /* 빅데이터 솔루션 아이콘 누리면 나오는 하단박스 추가*/
         .select_wrap {
             position: relative;
         }
@@ -251,6 +257,7 @@
             color: white;
         }
 
+        /*main2 시작*/
         .dlb1 {
             display: flex;
             flex-direction: column;
@@ -274,6 +281,7 @@
             justify-content: center;
         }
 
+        /*검색 박스 추가*/
         .dlb1_serch {
             width: 100%;
             margin-top: 20px;
@@ -290,6 +298,7 @@
             border: 0;
         }
 
+        /*최신 검색어 박스 추가*/
         .newserch {
             display: none;
             width: 64%;
@@ -324,6 +333,7 @@
             color: white;
         }
 
+        /*인기 검색어 추가*/
         .dlb_dt {
             margin-right: 10px;
             font-size: 15px;
@@ -338,6 +348,7 @@
             color: white;
         }
 
+        /*6개 미니 박스 추가*/
         .dlb2 {
             width: 100%;
             display: flex;
@@ -363,6 +374,7 @@
             height: 50px;
         }
 
+        /*main3 시작*/
         .main3 {
             display: flex;
             justify-content: center;
@@ -373,7 +385,7 @@
             width: 100%;
         }
 
-
+        /*반응형 웹 추가*/
         @media screen and (max-width : 700px) {
             body {width: 100%;}
             /*box-logo 부분*/
